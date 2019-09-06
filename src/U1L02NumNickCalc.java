@@ -7,7 +7,6 @@ public class U1L02NumNickCalc {
 		String input = JOptionPane.showInputDialog(null, "How many cents do you have?");
 		int userMoney = Integer.parseInt(input);
 		
-		//System.out.println(userMoney);
 		
 		int numBNick = userMoney/5;
 		int pennies = userMoney - (numBNick *5);
